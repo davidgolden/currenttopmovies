@@ -14,7 +14,7 @@ function GenreSelect(props) {
 
     return (
       <div className='header'>
-        <img src='../images/moviedb.svg' alt='The Movie DB' />
+        <img src='https://assets.tmdb.org/images/v4/logos/91x81.png' alt='The Movie DB' />
         <div className='header-text'>
           <h1>Current Top Movies</h1>
         </div>
