@@ -8,7 +8,7 @@ import theMovieDb from 'themoviedb-javascript-library';
 
 theMovieDb.common.base_uri = "https://api.themoviedb.org/3/";
 theMovieDb.common.images_uri = "https://image.tmdb.org/t/p/";
-theMovieDb.common.api_key: "4438a66354e20ba16bec83c4e3f40b2e";
+theMovieDb.common.api_key = "4438a66354e20ba16bec83c4e3f40b2e";
 
 class App extends React.Component {
   constructor(props) {
