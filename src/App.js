@@ -4,7 +4,7 @@ import './App.css';
 import MovieItem from './components/movie_item';
 import MovieSecondaryList from './components/movie_secondary_list';
 import GenreSelect from './components/genre_select';
-import theMovieDb from 'themoviedb-javascript-library/themoviedb.min';
+import theMovieDb from 'themoviedb-javascript-library';
 
 class App extends React.Component {
   constructor(props) {
