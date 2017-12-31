@@ -6,6 +6,9 @@ import MovieSecondaryList from './components/movie_secondary_list';
 import GenreSelect from './components/genre_select';
 import theMovieDb from 'themoviedb-javascript-library';
 
+theMovieDb.common.base_uri = "https://api.themoviedb.org/3/";
+theMovieDb.common.images_uri = "https://image.tmdb.org/t/p/";
+
 class App extends React.Component {
   constructor(props) {
     super(props);
